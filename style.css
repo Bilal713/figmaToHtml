@@ -1,0 +1,80 @@
+
+.main-body{
+    background-color: rgb(39, 5, 71);
+    height: auto;
+}
+.body .img img{
+    width: 600px;
+    height: 659px;
+    float: right;
+}
+.text{
+    display: flex;
+}
+.text .image1{
+    margin-top: 90%;
+    margin-left: 55%;
+}
+.text .image2{
+    margin-top: 90%;
+    margin-left: 40px;
+}
+.btn-images{
+    margin-top: 40px;
+    margin-left: 15%;
+}
+.btn-images img{
+    margin-left: 10px;
+}
+.group-2{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.btn button{
+    padding: 20px;
+    width: 200px;
+    background-color: #FF43B4;
+    font-weight: 800;
+    transform: rotate(-3deg);
+    border: 5px solid black;
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.main{
+    margin-top: 70px;
+    
+}
+.main .backimg {
+    width: auto;
+    z-index: -1;
+}
+.main .backimg .back{
+    width: 100%;
+}
+
+.footer{
+    width: auto;
+    display: flex;
+    background-color: white;
+    height: 200px;
+    margin-top:-75px;
+    position: relative;
+    z-index: 1;
+}
+.footer img{
+    height: 100px;
+    width: auto;
+    margin-top: 60px;
+    margin-left: 5%;
+}
+.footer .copy{
+    height: 20px;
+    margin-top:6% ;
+    margin-left: 45%;
+}
